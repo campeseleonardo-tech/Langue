@@ -1,8 +1,8 @@
-# ui/app_ui.py
-import flet as ft
-from core_loader import load_word_db
-from core_engine import GameEngine
 
+import flet as ft
+from core.loader import load_word_db
+# Assicurati che core_engine sia dentro la cartella core e rinominato engine.py
+from core.engine import GameEngine 
 
 # ---- Theme (monocolore) ----
 PRIMARY = ft.Colors.GREEN_600          # Duolingo-like green
